@@ -7,7 +7,10 @@ import model.entities.Department;
 import model.entities.Seller;
 
 import java.sql.*;
+import java.util.ArrayList;
+import java.util.HashMap;
 import java.util.List;
+import java.util.Map;
 
 public class DepartmentDaoImplJDBC implements DepartmentDao {
     private static Connection conn;
@@ -55,6 +58,24 @@ public class DepartmentDaoImplJDBC implements DepartmentDao {
 
     @Override
     public List<Department> findAll() {
-        return null;
+        PreparedStatement st = null;
+        ResultSet rs = null;
+        try {
+            st = conn.prepareStatement(
+                    "SELECT * " +
+                            "FROM department " +
+                            "ORDER  BY Name");
+            rs = st.executeQuery();
+            List<Department> list = new ArrayList<>();
+            while (rs.next()) {
+             Department obj = new Department(rs.getInt("id"), rs.getString("Name"));
+                list.add(obj);
+            }
+            return list;
+        } catch (SQLException e) {
+            throw new DbException(e.getMessage());
+        } finally {
+            DB.closeStatement(st);
+        }
     }
 }
