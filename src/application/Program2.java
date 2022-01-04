@@ -3,8 +3,10 @@ package application;
 import model.dao.DaoFactory;
 import model.dao.DepartmentDao;
 import model.entities.Department;
+import model.entities.Seller;
 
 import java.util.ArrayList;
+import java.util.Date;
 import java.util.List;
 import java.util.Scanner;
 
@@ -21,12 +23,14 @@ public class Program2 {
 
         System.out.println("=== TEST 2: department findAll ===");
         list = departmentDao.findAll();
-        for(Department obj: list){
-        System.out.println(obj);
+        for (Department obj : list) {
+            System.out.println(obj);
         }
 
-
-
+        System.out.println("\n==== TEST 3: seller Insert ====");
+        Department newDepartament = new Department(0, "Esporte");
+        departmentDao.insert(newDepartament);
+        System.out.println("Inserted! New id = "+ newDepartament.getId());
         sc.close();
     }
 }
