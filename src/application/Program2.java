@@ -14,7 +14,7 @@ public class Program2 {
 
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-       List<Department> list = new ArrayList<>();
+        List<Department> list = new ArrayList<>();
         DepartmentDao departmentDao = DaoFactory.createDepartmentDao();
 
         System.out.println("=== TEST 1: department findById ===");
@@ -32,10 +32,10 @@ public class Program2 {
         Department newDepartament = new Department(0, "Esporte");
         departmentDao.insert(newDepartament);
         System.out.println("Inserted! New id = " + newDepartament.getId());
-        sc.close();
+
 
         System.out.println("\n==== TEST 4: department update ====");
-        department = departmentDao.findById(6);
+        department = departmentDao.findById(5);
         department.setName("Brinquedos");
         departmentDao.update(department);
         System.out.println("Update completed");
@@ -45,5 +45,7 @@ public class Program2 {
         int id = sc.nextInt();
         departmentDao.deleteById(id);
         System.out.println("Delete completed");
+
+        sc.close();
     }
 }

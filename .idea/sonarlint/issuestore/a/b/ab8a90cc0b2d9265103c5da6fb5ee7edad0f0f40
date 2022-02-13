@@ -1,0 +1,15 @@
+
+Z
+java:S1854"8Remove this useless assignment to local variable "list".(ñÀëıÿÿÿÿ8Üàÿºâ/
+S	java:S106"9Replace this use of System.out or System.err by a logger.(£ë¥„ûÿÿÿÿ
+S	java:S106"9Replace this use of System.out or System.err by a logger.(ª‰‡¾üÿÿÿÿ
+S	java:S106"9Replace this use of System.out or System.err by a logger.(ûûšáùÿÿÿÿ
+Z	java:S106"9Replace this use of System.out or System.err by a logger.(Øêæ¹ûÿÿÿÿ8¨áÿºâ/
+U	java:S106"9Replace this use of System.out or System.err by a logger.(Áªø8®áÿºâ/
+T	java:S106"9Replace this use of System.out or System.err by a logger.(Åñ	8½áÿºâ/
+Z	java:S106!"9Replace this use of System.out or System.err by a logger.(úõ€èÿÿÿÿÿ8İáÿºâ/
+Z	java:S106#"9Replace this use of System.out or System.err by a logger.(ÃİÍ³ûÿÿÿÿ8ßáÿºâ/
+U	java:S106'"9Replace this use of System.out or System.err by a logger.(ˆ¾³õ8ìáÿºâ/
+U	java:S106)"9Replace this use of System.out or System.err by a logger.(”Òş8üáÿºâ/
+T	java:S106*"9Replace this use of System.out or System.err by a logger.(­¢‘P8Œâÿºâ/
+Z	java:S106-"9Replace this use of System.out or System.err by a logger.(¹†êëûÿÿÿÿ8âÿºâ/

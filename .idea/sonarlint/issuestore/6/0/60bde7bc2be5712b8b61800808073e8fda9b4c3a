@@ -1,0 +1,13 @@
+
+<
+java:S3010"!Remove this assignment of "conn".(Øó¶ìÿÿÿÿÿ
+P
+java:S2209"5Change this instance-reference to a static reference.(Øó¶ìÿÿÿÿÿ
+H
+java:S1128"2Remove this unused import 'model.entities.Seller'.(þíŠ½
+I
+java:S1128".Remove this unused import 'java.util.HashMap'.(™˜”€ùÿÿÿÿ
+E
+java:S1128"*Remove this unused import 'java.util.Map'.(¼è½Òþÿÿÿÿ
+x
+java:S1488v"[Immediately return this expression instead of assigning it to the temporary variable "obj".(ÈÄê³8œ¤®¼â/

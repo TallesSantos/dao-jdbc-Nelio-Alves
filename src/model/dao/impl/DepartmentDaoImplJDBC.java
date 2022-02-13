@@ -92,7 +92,7 @@ public class DepartmentDaoImplJDBC implements DepartmentDao {
 
             st.setInt(1, id);
             int rowsAffected = st.executeUpdate();
-            if(rowsAffected == 0){
+            if (rowsAffected == 0){
                 throw new DbException("Id not found...");
             }
         } catch (SQLException e) {

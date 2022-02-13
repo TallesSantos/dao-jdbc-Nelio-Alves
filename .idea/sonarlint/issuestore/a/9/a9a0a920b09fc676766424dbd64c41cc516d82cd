@@ -1,0 +1,15 @@
+
+N
+java:S1854Ÿ"7Remove this useless assignment to local variable "obj".(í ƒğ
+?
+java:S1481Ÿ"(Remove this unused "obj" local variable.(í ƒğ
+~
+java:S1192~"hDefine a constant instead of duplicating this literal "ON seller.DepartmentId = department.Id " 3 times.(©ËĞè
+‡
+java:S1192|"lDefine a constant instead of duplicating this literal "SELECT seller.*,department.Name as DepName " 3 times.(¢¦•›úÿÿÿÿ
+~
+java:S1192}"cDefine a constant instead of duplicating this literal "FROM seller INNER JOIN department " 3 times.(¤‹æŸÿÿÿÿÿ
+d
+java:S1192"MDefine a constant instead of duplicating this literal "DepartmentId" 5 times.(ÇÖóÑ
+w
+java:S1488…"[Immediately return this expression instead of assigning it to the temporary variable "obj".(–î©Áøÿÿÿÿ

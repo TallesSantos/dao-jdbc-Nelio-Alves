@@ -62,7 +62,7 @@ public class SellerDaoImplJDBC implements SellerDao {
         try {
             st = conn.prepareStatement(
 
-                  "UPDATE seller " +
+                    "UPDATE seller " +
                       "SET Name = ? ," +
                       "Email = ? , " +
                       "BirthDate = ?, " +

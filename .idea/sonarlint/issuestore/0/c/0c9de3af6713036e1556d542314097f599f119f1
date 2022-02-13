@@ -1,0 +1,18 @@
+
+N
+java:S1854"8Remove this useless assignment to local variable "list".(¾İ™œ
+N	java:S106"9Replace this use of System.out or System.err by a logger.(†ĞÏå
+S	java:S106"9Replace this use of System.out or System.err by a logger.(¿İ¨ÿÿÿÿÿ
+N	java:S106"9Replace this use of System.out or System.err by a logger.(¬Ù”¥
+U	java:S106"9Replace this use of System.out or System.err by a logger.(Áªø8·ê³¼â/
+Z	java:S106"9Replace this use of System.out or System.err by a logger.(Ôşãúÿÿÿÿ8·ê³¼â/
+Z	java:S106""9Replace this use of System.out or System.err by a logger.(­®ƒ‡üÿÿÿÿ8¹ê³¼â/
+U	java:S106%"9Replace this use of System.out or System.err by a logger.(ÌÇï„8ºê³¼â/
+U	java:S106)"9Replace this use of System.out or System.err by a logger.(ˆ¾³õ8ºê³¼â/
+Z	java:S106+"9Replace this use of System.out or System.err by a logger.(ŠÕ©Ğÿÿÿÿÿ8»ê³¼â/
+T	java:S106,"9Replace this use of System.out or System.err by a logger.(­¢‘P8»ê³¼â/
+Z	java:S106/"9Replace this use of System.out or System.err by a logger.(¹†êëûÿÿÿÿ8¼ê³¼â/
+H
+java:S1128"2Remove this unused import 'model.entities.Seller'.(şíŠ½
+A
+java:S1128	"+Remove this unused import 'java.util.Date'.(¸…¼ü
